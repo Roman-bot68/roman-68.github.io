@@ -1,0 +1,331 @@
+body{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "lato";
+}
+
+.fon{
+    background-image: url(img/fon-1.png);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 85px;
+}
+.fon2{
+
+    background-image: url(img/kirp.png);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
+.fon3{
+    background-image: url(img/fon-2.png);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.zag1{
+    color: seashell;
+    font-weight: bold;
+    font-family: "Lato";
+}
+.zag3{
+    color: #cccccc;
+    font-family: lato;
+    font-weight: 600;
+    padding-bottom: 20px
+}
+.zag2{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+.boot{
+    border-radius: 0ch;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0ch;
+}
+.pd{
+    margin-top: 40px;
+  }
+  .btn.blok{
+      border: 3px solid #013e99;
+      display: block;
+      white-space:  normal;
+  }
+  .btn.blok:hover{
+      background-color: #013e99;
+  }
+.pad{
+    padding: 0px;
+}
+.spisok{
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.spisok>li{
+    padding: 30px;
+    color: #666666;
+}
+.spisok>li>a{
+    color: #666666;
+    font-weight: bold;
+}
+h1, h2{
+    padding-top: 30px;
+}
+.holder{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/ft-1.png);
+    background-size: cover;
+}
+.holder2{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/krol.png);
+    background-size: cover;
+}
+.holder3{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/med.png);
+    background-size: cover;
+}
+.holder4{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/krol.png);
+    background-size: cover;;
+}
+.holder5{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/med.png);
+    background-size: cover;
+}
+.holder6{
+    position:relative;   
+    width:390px;
+    height:295px;
+    background-image: url(img/krol.png);
+    background-size: cover;
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background: rgba(42, 64, 176, 0.7);
+    padding:5px;
+    display:none;
+}
+.holder:hover .block{
+    display:block;
+}
+.holder2:hover .block{
+    display:block;
+}
+.holder3:hover .block{
+    display:block;
+}
+.holder4:hover .block{
+    display:block;
+}
+.holder5:hover .block{
+    display:block;
+}
+.holder6:hover .block{
+    display:block;
+
+}
+.kr1{
+    display: block;
+height: auto;
+max-width: 100%;
+}
+.text-center>li{
+    padding: 10px;
+}
+.fon-5{
+    background-image: url(img/fon5.png);
+    background-size: cover;
+    padding-bottom: 110px;
+    padding-top: 80px;
+}
+.fon5{
+    background-image: url(img/fon7.png);
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.kr {
+    opacity: 0.6;
+    padding: 30px;
+  }
+  
+  .kr:hover {
+    opacity: 1;
+  }
+  .pp{
+      padding: 20px;
+  }
+  .spisok-2{
+      list-style-type: none;
+  }
+  .spisok-2>li{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: "";
+      color: #939393;
+}
+.spisok-3>li{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "";
+    color: #939393;
+    padding-bottom: 7px;
+}
+.spisok-4>li{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "";
+    color: #939393;
+    padding-bottom: 7px;
+}
+.spisok-4{
+    margin-top: 74px;
+}
+.nomer{
+    margin-top: -17px;
+}
+.nomer-1{
+color: #fff;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 100%;
+    border: 0ch;
+    background-color: #252525;
+}
+li>a{
+    color: #939393;
+    font-family: "Lato bold";
+    font-weight: 600;
+    
+}
+li>a:hover{
+    color: #ffb619;
+    text-decoration: none;
+}
+.ft-text{
+    font-family: "";
+    text-align: center;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+}
+.zagol{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100px;
+    border-top: 3px solid #eee;
+}
+.nav>li{
+    text-transform: uppercase;
+    color: #393939;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.img-2{
+    display: inline-block;
+height: auto;
+max-width: 100%
+}
+.navbar-collapse{
+    flex-basis: none;
+}
+.sp{
+    display: flex;
+    list-style-type: none;
+}
+.sp>li{
+    padding: 10px;
+}
+.p{
+    font-family: "";
+    color: #666666;
+    font-weight: bold;
+}
+
+.btn-outline-light:hover {
+    color: #212529;
+    background-color: #19599a;
+    border-color: #f8f9fa;}
+    
+.btn-3{
+    border: 1px solid #fff;
+    border-radius: 0ch;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0ch;
+    padding: 8px 25px;
+}
+
+.btn-3{
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+.btn-3:hover {
+    color: #fff;
+    background-color: #ffb619;
+    border-color: #d58512;
+}
+.blok-5{
+    padding-top: 20px;
+    padding-bottom: 33px;
+}
+.text-1{
+    font-size: 15px;
+    font-family: "Lato";
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.zg-1{
+    font-family: "lato bold";
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-2{
+    color: #aaaaaa;
+    font-size: 15px;
+    font-family: "Lato";
+}
+.ff{
+    font-family: "Lato";
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: "Lato";
+}
